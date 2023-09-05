@@ -1,0 +1,31 @@
+
+
+
+.logo-container{
+    display: flex;
+}
+
+
+.nav-container{
+    min-height: 50px;
+    display: flex;
+    max-width: 1400px;
+}
+
+
+
+
+
+.btn-primary{
+   color:#F144AE;
+  
+}
+.nav-item-container{
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+
+
+    
