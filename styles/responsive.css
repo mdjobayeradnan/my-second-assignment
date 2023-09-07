@@ -7,8 +7,13 @@
 
     .nav-item-container {
         display: flex;
-        flex-direction: column;
-      align-items: center;
+       flex-direction: column;
+     text-align: center;
+     font-size:15px;
+     
+    }
+    .nav-item-containe>a{
+        text-align: center;
     }
 
     .play-container {
@@ -23,13 +28,36 @@
     .instant-container{
         display: flex;
     flex-direction: column;
+
 }
 .instantly-img{
     width: 50%;
 }
-.new{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
+.two-img{
+    position: relative;
+}
+.uncommon-img{
+width: 70%;
+
+position:absolute;
+
+left:10%;
+ 
+}
+.new>img{
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  
+  width:100%;
+  margin-left: 90px;
+
+  
+  
+}
+.new-item p{
+    font-size:10px ;
+
 }
 .manu{
     display: flex;
