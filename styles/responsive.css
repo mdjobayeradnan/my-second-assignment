@@ -8,6 +8,7 @@
     .nav-item-container {
         display: flex;
         flex-direction: column;
+      align-items: center;
     }
 
     .play-container {
@@ -29,7 +30,7 @@
 .new{
     display:grid;
     grid-template-columns: repeat(2,1fr);
-
+}
 .manu{
     display: flex;
     flex-direction: column;
