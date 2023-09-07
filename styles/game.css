@@ -91,32 +91,33 @@ margin-right: 10px;
     border: 2px solid red;
     /* padding-left: 20px;
     margin-bottom: 100px; */
-    display: flex;
+ 
     flex-direction: column;
     gap: 20px;
+    font-size: 25px;
 
 }
 
 .btn-primary {
-    border-radius: 20px;
+    border-radius: 28px;
     background: #FF42A5 13.13%;
     color: #FFF;
     font-family: Work Sans;
-    font-size: 30px;
+    font-size: 15px;
 
-    font-weight: 500px;
+    font-weight: 400px;
 
 
 }
 
 .another-btn {
-    border-radius: 48px;
+    border-radius: 28px;
     background: #4EC5F7;
     color: #FFF;
 
-    font-size: 20px;
+    font-size: 15px;
 
-    font-weight: 600;
+    font-weight: 400px;
 
 
 
@@ -415,25 +416,3 @@ color: azure;
 
 }
 
-@media screen and (max-width: 500px) {
-    .nav-container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .nav-item-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .play-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .online-img {
-        display: flex;
-        flex-direction: column;
-    }
-}
